@@ -1,0 +1,1 @@
+export { default } from 'roundcube-notifications/components/roundcube-notifications-main';
