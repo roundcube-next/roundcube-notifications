@@ -12,7 +12,7 @@ export default Ember.Component.extend({
 
     pubsub.on('shell.notify', function (message) {
       notify.info(message + '', {
-        closeAfter: 100000
+        closeAfter: 5000
       });
     });
   }.on('init')
