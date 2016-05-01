@@ -1,6 +1,5 @@
 import Ember from 'ember';
 import layout from '../templates/components/roundcube-notifications-main';
-import Notify from 'ember-notify';
 
 export default Ember.Component.extend({
   layout: layout,
